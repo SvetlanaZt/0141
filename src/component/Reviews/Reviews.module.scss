@@ -1,0 +1,24 @@
+.blockReviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapen, .blockSvg{
+    display: flex;
+}
+.textReviews{
+    margin-right: 8px;
+}
+.count{
+    margin: 0;
+    margin-right: 16px;
+}
+.messageSvg{
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+}
+.blockSvg{
+    height: 20px;
+    align-items: center;
+}

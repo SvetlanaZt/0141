@@ -1,0 +1,60 @@
+.blockServices{
+margin-top: 14px;
+}
+.textServices, .listServices, .countTitle, .count, .total{
+    margin: 0;
+}
+.listServices{
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    list-style: none;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.textServices, .total{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: end;
+}
+.itemServices{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    
+}
+.totalServices{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.countTitle{
+    // background: #B1E19B;
+    border-radius: 0px 3px 3px 0px;
+    height: 24px;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+.styleBlue{
+    background: #ACE2F8;
+    border-radius: 0px 3px 3px 0px;
+}
+.styleGreen{
+    background: #B1E19B;
+    border-radius: 0px 3px 3px 0px;
+}
+.total, .totalServices{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+}
+
+        

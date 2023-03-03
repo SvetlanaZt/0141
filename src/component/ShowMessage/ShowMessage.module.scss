@@ -1,0 +1,73 @@
+.popover{
+    background-color: firebrick;
+}
+.message{
+    background-color: rgb(238, 238, 106);
+}
+.listMessage{
+    list-style: none;
+    padding: 0;
+}
+.message {
+    display: inline-block;
+    position: relative;
+    background: #F2FBFF;
+    width: 100%;
+    height: auto;
+    line-height: 50px;
+    color: #fff;
+    padding: 22px 15px 15px 20px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin: 0;
+    border: 1px solid #C4CBCF;
+    box-sizing: border-box;
+    // color: #333333;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+}
+
+.message:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid black;
+    // border: 1px solid #C4CBCF;
+}
+.message:after {
+    border-color: transparent transparent #F2FBFF #F2FBFF;
+    bottom: 100%;
+    left: 11%;
+    margin-left: -10px;
+    
+}
+.messageText{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin: 0;
+}
+.name{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin-right: 8px;
+}
+.blockName{
+    display: flex;
+}
+.date{
+    font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #808080;
+}
