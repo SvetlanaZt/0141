@@ -1,14 +1,17 @@
 import { FC } from "react";
-import { useAppSelector } from "../../redux/hooks";
 import s from "./ShowMessage.module.scss";
 
 interface Props {
-  message: any;
+  id: number;
+  message: string;
+  name: string;
+}
+interface PropsMessage {
+  message: Props[];
 }
 
-const ShowMessage: FC<Props> = ({ message }) => {
-  // const message = useAppSelector((state) => state?.todo?.data);
-  // const dfdf = message.slice(-3);
+const ShowMessage: FC<PropsMessage> = ({ message }) => {
+  console.log(message);
 
   const date = new Date();
   const dateAll = date.toDateString();
