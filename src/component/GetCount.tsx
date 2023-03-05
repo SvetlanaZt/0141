@@ -3,8 +3,9 @@ interface Props {
 }
 
 const getCount = (countWidth: any, s: Props) => {
-  console.log(countWidth);
-  if (countWidth > countWidth / 2) {
+  console.log(countWidth.slice(0, 2));
+  const number = countWidth.slice(0, 2);
+  if (number > 50) {
     return s.styleGreen;
   } else {
     return s.styleBlue;

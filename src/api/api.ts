@@ -6,7 +6,7 @@ export const tasksApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'https://63fe1ab4571200b7b7c5399a.mockapi.io' }),
   endpoints: (build) => ({
     getDataUser: build.query<IData, string>({
-      query: () => `/test/user/18`
+      query: () => `/test/user/22`
     }),
     getDataAllUsers: build.query<IData[], string>({
       query: () => `/test/user`
