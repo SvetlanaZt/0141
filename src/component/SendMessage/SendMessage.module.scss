@@ -1,3 +1,4 @@
+@import '../../utils/mixins.scss';
 .blockForm{
     background-color: #F2F2F2;
     height: 91px;
@@ -11,16 +12,14 @@
     height: 63px;
 }
 .formButton{
+    @include flex(center, center);
     background-color: #FDD639;
     border-radius: 23px;
     height: 43px;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     text-align: center;
-    justify-content: center;
     color: #333333;
     margin: auto;
     min-width: 200px;
