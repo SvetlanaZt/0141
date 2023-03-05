@@ -9,14 +9,14 @@ const Services = () => {
   const tours = data?.tours;
   const hotels = data?.hotels;
   let total = 0;
-  const widthRating = 375;
+  // const widthRating = 375;
 
   if (booking && tours && hotels) {
     total = booking + tours + hotels;
   }
   const countWidth = (item: any) => {
-    const countWidth = (item / total) * widthRating;
-    return `${countWidth}px`;
+    const countWidth = (item * 100) / total;
+    return `${countWidth}%`;
   };
   return (
     <div className={s.blockServices}>
@@ -51,9 +51,9 @@ const Services = () => {
         </li>
       </ul>
       {total && (
-        <p className={s.totalServices}>
+        <div className={s.totalServices}>
           Total <p className={s.total}>{total}</p>
-        </p>
+        </div>
       )}
     </div>
   );

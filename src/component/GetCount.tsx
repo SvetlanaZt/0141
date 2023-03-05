@@ -4,7 +4,7 @@ interface Props {
 
 const getCount = (countWidth: any, s: Props) => {
   console.log(countWidth);
-  if (countWidth > "185px") {
+  if (countWidth > countWidth / 2) {
     return s.styleGreen;
   } else {
     return s.styleBlue;

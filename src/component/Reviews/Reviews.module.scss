@@ -1,24 +1,36 @@
-.blockReviews{
-    display: flex;
-    justify-content: space-between;
+.blockReviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapen,
+.blockSvg {
+  display: flex;
+}
+.textReviews {
+  margin-right: 8px;
+font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
     align-items: center;
+    color: #333333;
 }
-.wrapen, .blockSvg{
-    display: flex;
+.count {
+  margin: 0;
+  margin-right: 16px;
 }
-.textReviews{
-    margin-right: 8px;
+.messageSvg {
+  margin-right: 2px;
+  height: 16px;
+  width: 16px;
 }
-.count{
-    margin: 0;
-    margin-right: 16px;
+.blockSvg {
+  height: 20px;
+  align-items: center;
 }
-.messageSvg{
-    margin-right: 2px;
-    height: 16px;
-    width: 16px;
-}
-.blockSvg{
-    height: 20px;
-    align-items: center;
+.allReviews {
+    border: none;
+    background: none;
+    text-decoration-line: underline;
+    color: #005DA1;
 }

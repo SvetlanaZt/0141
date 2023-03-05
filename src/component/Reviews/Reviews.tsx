@@ -20,7 +20,6 @@ const Reviews = () => {
             All reviews
           </button>
         </div>
-        {/* <link href="*">All reviews</link> */}
         <div className={s.blockSvg}>
           <HeartOutlined className={s.messageSvg} />
           <p className={s.count}>131</p>
